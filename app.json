@@ -1,10 +1,11 @@
 {
   "expo": {
-    "name": "app",
-    "slug": "app",
+    "name": "Guardião",
+    "slug": "guardiao",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
+    "scheme": "guardiao",
     "userInterfaceStyle": "light",
     "ios": {
       "supportsTablet": true
@@ -20,6 +21,7 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "plugins": ["expo-router", "expo-sqlite", "expo-font", ["expo-location", { "locationWhenInUsePermission": "O Guardião usa sua localização para avisar onde você está em caso de queda ou SOS." }]]
   }
 }
